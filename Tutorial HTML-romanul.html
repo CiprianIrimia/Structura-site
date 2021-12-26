@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Tutorial HTML" />
+    <meta name="keywords" content="html,css, javascript, java" />
+    <meta name="author" content="Ciprian Irimia" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tutorial HTML-structura unui site</title>
+
+    <!--Importa un fisier JavaScript-->
+    <script src="./index.js" type="text/javascript"></script>
+
+    <!--Importa un fisier CSS-->
+    <link href="./style.css" rel="stylesheet" />
+
+    <!-- Sau se poate scrie CSS direct in pagina (NU ESTE RECOMANDAT!!!)-->
+    <style>
+      /* body {
+            background-color: aqua;
+        } */
+    </style>
+
+    <!-- Sau putem scrie  JavaScript direct in pagina (NU ESTE RECOMANDAT!!!) -->
+    <script>
+      // alert('Text pentru testare!')
+    </script>
+  </head>
+  <body>
+    <div class="containerTutorialHTML">
+      <header>
+        <nav>
+          <ol>
+            <li>Home</li>
+            <li>Store</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ol>
+        </nav>
+      </header>
+      <div id="teste" class="testeteste">testete</div>
+
+      <!--Mai jos vom face legatura cu cealalta pagina-->
+      <a href="./pag.2 de HTML.html">Mergeti la pagina a doua de HTML</a>
+      <br /><br/>
+
+      <!--Sau catre STRUCTURA DE SITE a lui SABIN ILIESCU-->
+      <a href="./Structura site(Sabin Iliesc).html"
+        >Link catre STRUCTURA SITE -Sabin Iliescu(SCOALA INF. DE IT)</a>
+
+      <h1>Acesta este site-ul meu</h1>
+      <h2>Acesta este site-ul meu</h2>
+      <h3>Acesta este site-ul meu</h3>
+      <h4>Acesta este site-ul meu</h4>
+      <h5>Acesta este site-ul meu</h5>
+      <h6>Acesta este site-ul meu</h6>
+
+      <!--Zona pentru comentarii-->
+      <p>
+        <b>Lorem ipTsum</b>, <i>dolor sit amet consectetur adipisicing elit</i>.
+        <u>Deleniti quidem necessitatibus perferendis</u> labore quos quo
+        expedita nam adipisci, eum praesentium odit incidunt similique magni
+        voluptates, quaerat laboriosam officiis fugit sint?
+      </p>
+
+      <!--Text area este folosit ptr a adauga bucati mai mari de text (blog de exp.)-->
+
+      <textarea></textarea><br />
+      <button>Submit</button>
+
+      <!--Linie continua-->
+      <hr />
+
+      <!--Pentru a adauga pauza/un rand gol-->
+      <br />
+
+      <!--Lista neordonata-->
+      <ul>
+        <li>Element 1</li>
+        <li>Element 2</li>
+        <li>Element 3</li>
+        <li>Element 4</li>
+      </ul>
+
+      <!--Lista ordonata-->
+      <ol>
+        <li>Element 1</li>
+        <li>Element 2</li>
+        <li>Element 3</li>
+        <li>Element 4</li>
+      </ol>
+
+      <!-- Inserare imagine -->
+      <img src="./assets(denumire ptr diferite surse media)/images.png"/>
+      
+
+      <div class="container">
+        <span>
+          <label id="usernameColor">Username</label>
+          <input id="username" placeholder="Username" maxlength="255"> <br>
+        </span><br>
+        <span>
+          <label id="passColor">Password</label>
+          <input id="password" type="password" placeholder="Password" maxlength="255"><br />
+        </span><br>
+        <div>
+          <button class="buttonLogin">Login</button>
+        </div>
+      </div>
+
+      <div class="checkbox">
+        <label>Vreau HTML</label>
+        <input type="checkbox" />
+        <label>Vreau CSS</label>
+        <input type="checkbox" />
+        <label>Vreau JavaScript</label>
+        <input type="checkbox" />
+      </div>
+
+      <br />
+
+      <div class="radioButton">
+        <label>Vreau HTML</label>
+        <input type="radio" name="optiune" value="DA" />
+        <label>Vreau CSS</label>
+        <input type="radio" name="optiune" value="DA" />
+        <label>Vreau JavaScript</label>
+        <input type="radio" name="optiune" value="POATE" />
+      </div>
+
+      <br />
+      <!--Creare tabele-->
+      <table style="width: 49%">
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Adress</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Bogdan</td>
+          <td>bogdan@email.com</td>
+          <td>Romania</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Ion</td>
+          <td>ion@email.com</td>
+          <td>Spania</td>
+        </tr>
+      </table>
+      <br />
+
+      <embed
+        src="https://m.media-amazon.com/images/G/01/AmazonStores/Help/assets/img/image-tile-rectangle.png"
+        width="600"
+        height="200"
+        />
+
+      <iframe src="https://www.youtube.com/embed/vQAvjof1oe4"></iframe>
+    </div>
+
+    <footer>All rights reserved Ciprian Irimia &copy; 2021;</footer>
+  </body>
+</html>
